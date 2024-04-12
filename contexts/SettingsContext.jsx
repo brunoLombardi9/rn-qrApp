@@ -95,7 +95,9 @@ const SettingsContext = ({ children }) => {
     try {
       setThemeColor(opt);
       await updateThemeColor(opt.color);
-    } catch (error) {}
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   const data = {

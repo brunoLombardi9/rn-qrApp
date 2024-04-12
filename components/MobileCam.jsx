@@ -1,5 +1,5 @@
 import { Animated, Easing, StyleSheet, Text, View } from "react-native";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { Camera, CameraType } from "expo-camera";
 import Icon from "react-native-vector-icons/MaterialCommunityIcons";
 import { getSettingsContext } from "../contexts/SettingsContext";
